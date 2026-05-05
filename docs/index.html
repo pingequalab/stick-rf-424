@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stick RF 424 for M5StickC Plus | CC1101 + nRF24L01+ Dual RF Module — PINGEQUA</title>
+  <meta name="description" content="Stick RF 424 is a dual-band RF module for M5StickC Plus 1.1 and 2. Physical slide switch selects CC1101 (433MHz Sub-GHz) or nRF24L01+ (2.4GHz). Bruce firmware compatible. 92+ reviews. Built by PINGEQUA."/>
+  <meta name="keywords" content="Stick RF 424, M5StickC Plus, CC1101, nRF24L01, Bruce firmware, dual-band RF module, Sub-GHz 433MHz, 2.4GHz, physical slide switch, hacker module, PINGEQUA"/>
+  <link rel="canonical" href="https://pingequalab.github.io/stick-rf-424/"/>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Stick RF 424 for M5StickC Plus | PINGEQUA"/>
+  <meta property="og:description" content="CC1101 (Sub-GHz) + nRF24L01+ (2.4GHz) with physical slide switch. Bruce firmware ready. 92+ reviews. $24.98 USD."/>
+  <meta property="og:image" content="https://www.pingequa.com/cdn/shop/files/2_b65696ef-2a3d-4d7e-830c-7a92575a965f.jpg?width=1200"/>
+  <meta property="og:url" content="https://pingequalab.github.io/stick-rf-424/"/>
+  <meta property="og:type" content="product"/>
+  <meta property="og:site_name" content="PINGEQUA"/>
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Stick RF 424 for M5StickC Plus | PINGEQUA"/>
+  <meta name="twitter:description" content="Dual-band CC1101 + nRF24L01+ RF module with physical slide switch. Bruce firmware. 92+ reviews."/>
+  <meta name="twitter:image" content="https://www.pingequa.com/cdn/shop/files/2_b65696ef-2a3d-4d7e-830c-7a92575a965f.jpg?width=1200"/>
+
+  <!-- JSON-LD: Product Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Stick RF 424 for M5StickC Plus",
+    "description": "Dual-band RF module for M5StickC Plus 1.1 and 2 featuring CC1101 (Sub-GHz/433MHz) and nRF24L01+ (2.4GHz) with physical slide switch for hardware isolation. Bruce firmware compatible.",
+    "image": "https://www.pingequa.com/cdn/shop/files/2_b65696ef-2a3d-4d7e-830c-7a92575a965f.jpg",
+    "brand": { "@type": "Brand", "name": "PINGEQUA" },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "92",
+      "reviewCount": "92",
+      "bestRating": "5"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "24.98",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "url": "https://www.pingequa.com/products/stick-rf-424-module",
+      "seller": { "@type": "Organization", "name": "PINGEQUA", "url": "https://www.pingequa.com" }
+    },
+    "additionalProperty": [
+      {"@type": "PropertyValue", "name": "Sub-GHz Chipset", "value": "CC1101"},
+      {"@type": "PropertyValue", "name": "2.4GHz Chipset", "value": "nRF24L01+"},
+      {"@type": "PropertyValue", "name": "Switch Type", "value": "Physical hardware slide switch"},
+      {"@type": "PropertyValue", "name": "Required Firmware", "value": "Bruce latest beta"},
+      {"@type": "PropertyValue", "name": "Compatible Device", "value": "M5StickC Plus 1.1 / 2"}
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Which firmware does Stick RF 424 require?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use the latest Bruce beta firmware. Do NOT use Bruce v1.13 stable — it has a known SPI timing bug causing 'CC1101 NOT FOUND' on M5StickC Plus 1.1. Flash at bruce.computer/flasher."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why do I get 'CC1101 NOT FOUND' on M5StickC Plus?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bruce v1.13 stable has a known SPI bus timing issue affecting M5StickC Plus 1.1 hardware. Upgrade to the latest Bruce beta which includes the required SPI initialization and AXP2101 power management patches."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I switch between CC1101 and nRF24 on Stick RF 424?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use the physical slide switch on the board. Slide to the 433MHz position for CC1101, or to the 2.4GHz position for nRF24L01+. Then select the corresponding Legacy module in Bruce firmware."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Stick RF 424 work with M5Stack Cardputer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Stick RF 424 is designed for M5StickC Plus 1.1 and M5StickC Plus 2. For M5Stack Cardputer, PINGEQUA offers the Hydra RF 424 Cap and Hydra RF 924 Pro."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I configure CC1101 in Bruce firmware on M5StickC Plus?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Slide the hardware switch to the 433MHz position, then navigate in Bruce: RF → CONFIG → RF MODULE → CC1101 (Legacy)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why use 'Legacy' mode in Bruce for Stick RF 424?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Legacy setting ensures zero-latency module detection on M5StickC Plus hardware. Always select CC1101 (Legacy) or NRF24 (Legacy) when using this module."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a class="brand" href="https://www.pingequa.com">PINGEQUA</a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#specs">Specs</a>
+        <a href="#quickstart">Quick Start</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://www.pingequa.com/products/stick-rf-424-module" class="btn-nav">Buy $24.98</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="label">BY PINGEQUA</div>
+        <h1>Stick RF 424<br/><span class="sub">for M5StickC Plus</span></h1>
+        <p class="tagline">CC1101 (Sub-GHz / 433MHz) + nRF24L01+ (2.4GHz)<br/>
+        Physical slide switch · Bruce firmware ready · 92+ community reviews</p>
+        <div class="badges">
+          <span class="badge green">Bruce Latest Beta</span>
+          <span class="badge blue">433 MHz</span>
+          <span class="badge blue">2.4 GHz</span>
+          <span class="badge orange">CC1101 + nRF24L01+</span>
+          <span class="badge yellow">92+ Reviews</span>
+        </div>
+        <div class="hero-cta">
+          <a href="https://www.pingequa.com/products/stick-rf-424-module" class="btn-primary">Buy Now — $24.98 USD</a>
+          <a href="https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module" class="btn-secondary">Setup Guide</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="https://www.pingequa.com/cdn/shop/files/2_b65696ef-2a3d-4d7e-830c-7a92575a965f.jpg?width=900"
+             alt="Stick RF 424 for M5StickC Plus — dual-band RF module by PINGEQUA"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section" id="features">
+    <div class="container">
+      <h2>Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="icon">📡</div>
+          <h3>Dual-Band RF</h3>
+          <p>CC1101 covers Sub-GHz bands (315 / 433 / 868 / 915 MHz). nRF24L01+ covers 2.4GHz. One board, two radios.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">🔀</div>
+          <h3>Physical Slide Switch</h3>
+          <p>True electrical isolation between chipsets — not software logic. Slide to select. No firmware conflicts possible.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">🔧</div>
+          <h3>Bruce Firmware Ready</h3>
+          <p>Both CC1101 and NRF24 are natively supported. Use the "Legacy" setting for zero-latency detection.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">🔋</div>
+          <h3>Low-Noise PCB</h3>
+          <p>Enhanced capacitance design minimizes noise during RF transmissions for reliable signal quality.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">🔌</div>
+          <h3>Plug-and-Play</h3>
+          <p>GPIO header connection to M5StickC Plus. No soldering. No wires to manage.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">⭐</div>
+          <h3>92+ Community Reviews</h3>
+          <p>One of PINGEQUA's most popular and battle-tested modules. Trusted by the hacker community worldwide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section section-dark" id="gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="https://www.pingequa.com/cdn/shop/files/2_b65696ef-2a3d-4d7e-830c-7a92575a965f.jpg?width=600" alt="Stick RF 424 front view"/>
+        <img src="https://www.pingequa.com/cdn/shop/files/1_9813e3af-68f7-4560-94a4-83a0d5c920cc.jpg?width=600" alt="Stick RF 424 installed on M5StickC Plus"/>
+        <img src="https://www.pingequa.com/cdn/shop/files/3_5e269f77-652c-4bdf-ad27-18650475a3eb.jpg?width=600" alt="Stick RF 424 slide switch detail"/>
+        <img src="https://www.pingequa.com/cdn/shop/files/5_2e56021b-45fc-4b7e-831e-2cd4bcbc30bc.jpg?width=600" alt="Stick RF 424 circuit board"/>
+        <img src="https://www.pingequa.com/cdn/shop/files/6_b18f4f6d-9635-49e9-a403-2c9fcdca5871.jpg?width=600" alt="Stick RF 424 side view"/>
+        <img src="https://www.pingequa.com/cdn/shop/files/7_0d6ea3c7-7446-4ce0-a2bf-1393eaafba40.jpg?width=600" alt="Stick RF 424 packaging"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECS -->
+  <section class="section" id="specs">
+    <div class="container">
+      <h2>Technical Specifications</h2>
+      <div class="tables-wrap">
+        <table>
+          <thead><tr><th>Parameter</th><th>CC1101</th><th>nRF24L01+</th></tr></thead>
+          <tbody>
+            <tr><td>Frequency</td><td>315 / 433 / 868 / 915 MHz</td><td>2.400 – 2.525 GHz</td></tr>
+            <tr><td>Protocol</td><td>FSK / OOK / ASK</td><td>Enhanced ShockBurst</td></tr>
+            <tr><td>Switch Position</td><td>433 MHz side</td><td>2.4 GHz side</td></tr>
+            <tr><td>Bruce Config</td><td>CC1101 (Legacy)</td><td>NRF24 (Legacy)</td></tr>
+            <tr><td>Use Cases</td><td>Sub-GHz capture, replay, analysis</td><td>2.4GHz sniffing, mousejacking</td></tr>
+          </tbody>
+        </table>
+        <table>
+          <thead><tr><th>Component</th><th>Specification</th></tr></thead>
+          <tbody>
+            <tr><td>Isolation Method</td><td>Physical hardware slide switch</td></tr>
+            <tr><td>PCB Design</td><td>Low-noise with enhanced capacitance</td></tr>
+            <tr><td>Host Device</td><td>M5StickC Plus 1.1 / M5StickC Plus 2</td></tr>
+            <tr><td>Required Firmware</td><td>Bruce latest beta</td></tr>
+            <tr><td>Avoid</td><td>Bruce v1.13 stable (SPI bug)</td></tr>
+            <tr><td>Price</td><td>$24.98 USD</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK START -->
+  <section class="section section-dark" id="quickstart">
+    <div class="container">
+      <h2>Quick Start</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <div class="step-body">
+            <h3>Flash Bruce Firmware (Latest Beta)</h3>
+            <p class="warning">⚠️ Do NOT use Bruce v1.13 stable. It has a known SPI timing bug causing <code>CC1101 NOT FOUND</code> on M5StickC Plus 1.1. Use the latest beta.</p>
+            <a href="https://bruce.computer/flasher" class="btn-link" target="_blank" rel="noopener">Flash at bruce.computer/flasher →</a>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <div class="step-body">
+            <h3>Attach the Module</h3>
+            <p>Connect Stick RF 424 to your M5StickC Plus via the GPIO header. No soldering required.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <div class="step-body">
+            <h3>Select Module with Slide Switch</h3>
+            <p>Physically slide the switch to the chipset you want to use:</p>
+            <p><strong>433 MHz position →</strong> CC1101 active</p>
+            <p><strong>2.4 GHz position →</strong> nRF24L01+ active</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <div class="step-body">
+            <h3>Configure in Bruce</h3>
+            <p><strong>CC1101:</strong></p>
+            <code>RF → CONFIG → RF MODULE → CC1101 (Legacy)</code>
+            <p style="margin-top:12px"><strong>nRF24L01+:</strong></p>
+            <code>RF → CONFIG → RF MODULE → NRF24 (Legacy)</code>
+            <p style="margin-top:10px;font-size:0.88rem;color:#8b949e;">Always use the <strong>Legacy</strong> setting for zero-latency module detection.</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:32px">
+        <a href="https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module" class="btn-secondary" target="_blank" rel="noopener">Full Setup & Troubleshooting Guide →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <h2>FAQ</h2>
+      <div class="faq-list">
+        <details>
+          <summary>Which firmware version should I use?</summary>
+          <p>Use the <strong>latest Bruce beta</strong>. Do NOT use v1.13 stable — it has a known SPI timing bug causing <code>CC1101 NOT FOUND</code> on M5StickC Plus 1.1. Flash at <a href="https://bruce.computer/flasher">bruce.computer/flasher</a>.</p>
+        </details>
+        <details>
+          <summary>Why do I see "CC1101 NOT FOUND"?</summary>
+          <p>Bruce v1.13 stable has a known SPI bus timing issue on M5StickC Plus 1.1. Flash the latest Bruce beta, which includes critical patches for SPI initialization and AXP2101 power management.</p>
+        </details>
+        <details>
+          <summary>How do I switch between CC1101 and nRF24?</summary>
+          <p>Use the physical slide switch on the board. Slide to 433MHz for CC1101, or 2.4GHz for nRF24L01+. Then select the corresponding Legacy module in Bruce.</p>
+        </details>
+        <details>
+          <summary>Why use the "Legacy" setting in Bruce?</summary>
+          <p>The Legacy setting ensures zero-latency module detection on M5StickC Plus hardware. Always choose CC1101 (Legacy) or NRF24 (Legacy) when using this module.</p>
+        </details>
+        <details>
+          <summary>Does it work with M5Stack Cardputer?</summary>
+          <p>No. Stick RF 424 is for M5StickC Plus 1.1 and 2. For Cardputer, see the <a href="https://www.pingequa.com/pages/wiki">Hydra RF series</a>. For StickS3, see <a href="https://github.com/pingequalab/rf-pack-s3">RF PACK S3</a>.</p>
+        </details>
+        <details>
+          <summary>Is soldering required?</summary>
+          <p>No. Stick RF 424 connects via GPIO header — completely solderless.</p>
+        </details>
+        <details>
+          <summary>What Sub-GHz frequencies are supported?</summary>
+          <p>315 MHz, 433 MHz, 868 MHz, and 915 MHz via the CC1101 chipset.</p>
+        </details>
+        <details>
+          <summary>Where can I buy it?</summary>
+          <p><a href="https://www.pingequa.com/products/stick-rf-424-module">PINGEQUA Store</a> — $24.98 USD, ships globally within 48 hours.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Trusted by 92+ Hackers Worldwide</h2>
+      <p>Get Stick RF 424 for M5StickC Plus — $24.98 USD · Ships in 48hrs · 14-day returns</p>
+      <a href="https://www.pingequa.com/products/stick-rf-424-module" class="btn-primary btn-large">Buy on PINGEQUA Store →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand">PINGEQUA</div>
+          <p>Precision Gear for Hackers.<br/>RF hardware for security researchers, educators, and makers worldwide.</p>
+          <a href="https://www.youtube.com/@PINGEQUA" class="footer-link">YouTube @PINGEQUA</a>
+        </div>
+        <div>
+          <h4>Products</h4>
+          <a href="https://www.pingequa.com/products/stick-rf-424-module" class="footer-link">Stick RF 424 (StickC Plus)</a><br/>
+          <a href="https://github.com/pingequalab/rf-pack-s3" class="footer-link">RF PACK S3 (StickS3)</a><br/>
+          <a href="https://www.pingequa.com/pages/wiki" class="footer-link">Hydra RF (Cardputer)</a><br/>
+          <a href="https://www.pingequa.com/pages/wiki" class="footer-link">SWITCHBLADE RF (Flipper Zero)</a>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <a href="https://www.pingequa.com/pages/wiki" class="footer-link">PINGEQUA Wiki</a><br/>
+          <a href="https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module" class="footer-link">Setup Guide</a><br/>
+          <a href="https://bruce.computer/flasher" class="footer-link">Bruce Firmware Flasher</a><br/>
+          <a href="https://github.com/pr3y/Bruce/wiki/" class="footer-link">Bruce Wiki</a><br/>
+          <a href="https://github.com/pingequalab/stick-rf-424" class="footer-link">GitHub Repository</a>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <a href="https://www.pingequa.com/policies/contact-information" class="footer-link">Contact</a><br/>
+          <a href="https://www.pingequa.com/policies/terms-of-service" class="footer-link">Terms of Service</a><br/>
+          <p style="margin-top:12px;font-size:0.8rem;opacity:0.5;">For educational and authorized research use only.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 PINGEQUA. All rights reserved.</p>
+        <p>This page is hosted on <a href="https://github.com/pingequalab/stick-rf-424">GitHub</a>.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
