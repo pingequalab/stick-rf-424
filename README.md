@@ -9,10 +9,10 @@
 [![Firmware](https://img.shields.io/badge/Firmware-Bruce%20Latest%20Beta-brightgreen)](https://bruce.computer/flasher)
 [![Frequency](https://img.shields.io/badge/Frequency-433MHz%20%7C%202.4GHz-blue)](#technical-specifications)
 [![Chipsets](https://img.shields.io/badge/Chipsets-CC1101%20%7C%20nRF24L01%2B-orange)](#technical-specifications)
-[![Reviews](https://img.shields.io/badge/Reviews-92%20★-yellow)](https://www.pingequa.com/products/stick-rf-424-module)
-[![Buy](https://img.shields.io/badge/Buy-PINGEQUA%20Store-red)](https://www.pingequa.com/products/stick-rf-424-module)
+[![Reviews](https://img.shields.io/badge/Reviews-92%20★-yellow)](https://www.pingequa.com/products/stick-rf-424-module?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424)
+[![Buy](https://img.shields.io/badge/Buy-PINGEQUA%20Store-red)](https://www.pingequa.com/products/stick-rf-424-module?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424)
 
-**[➡ Buy Now — $24.98 USD](https://www.pingequa.com/products/stick-rf-424-module)**  |  **[Support & Setup Guide](https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module)**  |  **[YouTube @PINGEQUA](https://www.youtube.com/@PINGEQUA)**
+**[➡ Buy Now — $24.98 USD](https://www.pingequa.com/products/stick-rf-424-module?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424)**  |  **[Support & Setup Guide](https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424)**  |  **[YouTube @PINGEQUA](https://www.youtube.com/@PINGEQUA)**
 
 </div>
 
@@ -24,7 +24,7 @@ The **Stick RF 424** is a dual-band RF module for the **M5StickC Plus 1.1 and 2*
 
 With 92+ community reviews and compatibility with **Bruce firmware**, the Stick RF 424 is one of PINGEQUA's most popular modules for Sub-GHz signal research, 2.4GHz interaction, and wireless education.
 
-> Built by [PINGEQUA](https://www.pingequa.com) — *Precision Gear for Hackers.*
+> Built by [PINGEQUA](https://www.pingequa.com?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) — *Precision Gear for Hackers.*
 
 ---
 
@@ -70,7 +70,7 @@ With 92+ community reviews and compatibility with **Bruce firmware**, the Stick 
 | Bruce Firmware (latest beta) | ✅ Required |
 | Bruce Firmware v1.13 stable | ❌ Known `CC1101 NOT FOUND` bug — do not use |
 | M5Stack StickS3 | ❌ Use [RF PACK S3](https://github.com/pingequalab/rf-pack-s3) instead |
-| M5Stack Cardputer | ❌ Use [Hydra RF series](https://www.pingequa.com/pages/wiki) instead |
+| M5Stack Cardputer | ❌ Use [Hydra RF series](https://www.pingequa.com/pages/wiki?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) instead |
 
 ---
 
@@ -129,14 +129,14 @@ RF → CONFIG → RF MODULE → NRF24 (Legacy)
 
 | Resource | Link |
 |----------|------|
-| Setup & Troubleshooting Guide | [PINGEQUA Support Page](https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module) |
+| Setup & Troubleshooting Guide | [PINGEQUA Support Page](https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) |
 | Setup Guide (Wiki) | [Setup Guide](../../wiki/Setup-Guide) |
 | Firmware Guide (Wiki) | [Firmware Guide](../../wiki/Firmware-Guide) |
 | Troubleshooting (Wiki) | [Troubleshooting](../../wiki/Troubleshooting) |
 | FAQ (Wiki) | [FAQ](../../wiki/FAQ) |
 | Bruce Firmware Flasher | [bruce.computer/flasher](https://bruce.computer/flasher) |
 | Bruce Wiki | [github.com/pr3y/Bruce/wiki](https://github.com/pr3y/Bruce/wiki/) |
-| PINGEQUA Wiki | [pingequa.com/pages/wiki](https://www.pingequa.com/pages/wiki) |
+| PINGEQUA Wiki | [pingequa.com/pages/wiki](https://www.pingequa.com/pages/wiki?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) |
 
 ---
 
@@ -144,13 +144,13 @@ RF → CONFIG → RF MODULE → NRF24 (Legacy)
 
 | Product | For Device |
 |---------|-----------|
-| [Stick RF 424](https://www.pingequa.com/products/stick-rf-424-module) | M5StickC Plus 1.1 / 2 |
+| [Stick RF 424](https://www.pingequa.com/products/stick-rf-424-module?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) | M5StickC Plus 1.1 / 2 |
 | [RF PACK S3](https://github.com/pingequalab/rf-pack-s3) | M5Stack StickS3 |
-| [Hydra RF 424 Cap](https://www.pingequa.com/pages/wiki) | M5Stack Cardputer |
-| [SWITCHBLADE RF 3-in-1](https://www.pingequa.com/pages/wiki) | Flipper Zero |
-| [BW16 Devboard](https://www.pingequa.com/pages/wiki) | Flipper Zero |
+| [Hydra RF 424 Cap](https://www.pingequa.com/pages/wiki?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) | M5Stack Cardputer |
+| [SWITCHBLADE RF 3-in-1](https://www.pingequa.com/pages/wiki?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) | Flipper Zero |
+| [BW16 Devboard](https://www.pingequa.com/pages/wiki?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) | Flipper Zero |
 
-> Explore the full lineup at [pingequa.com/pages/wiki](https://www.pingequa.com/pages/wiki)
+> Explore the full lineup at [pingequa.com/pages/wiki](https://www.pingequa.com/pages/wiki?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424)
 
 ---
 
@@ -162,8 +162,8 @@ This product is intended for **educational and authorized research purposes only
 
 <div align="center">
 
-**[Buy Stick RF 424 — $24.98 USD](https://www.pingequa.com/products/stick-rf-424-module)**
+**[Buy Stick RF 424 — $24.98 USD](https://www.pingequa.com/products/stick-rf-424-module?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424)**
 
-Made with precision by [PINGEQUA](https://www.pingequa.com) · [@PINGEQUA on YouTube](https://www.youtube.com/@PINGEQUA)
+Made with precision by [PINGEQUA](https://www.pingequa.com?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) · [@PINGEQUA on YouTube](https://www.youtube.com/@PINGEQUA)
 
 </div>

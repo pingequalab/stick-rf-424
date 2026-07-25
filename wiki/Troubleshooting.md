@@ -1,6 +1,6 @@
 # Troubleshooting — Stick RF 424 for M5StickC Plus
 
-> **[Buy Stick RF 424 — $24.98 USD](https://www.pingequa.com/products/stick-rf-424-module)** | [Back to Wiki Home](Home) | [PINGEQUA Support](https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module)
+> **[Buy Stick RF 424 — $24.98 USD](https://www.pingequa.com/products/stick-rf-424-module?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424)** | [Back to Wiki Home](Home) | [PINGEQUA Support](https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424)
 
 ---
 
@@ -64,7 +64,7 @@ Note: nRF24 range is limited on this hardware due to low-power design constraint
 1. Remove the module and confirm the device boots normally.
 2. Inspect GPIO header for bent pins or debris.
 3. Re-attach module carefully with device powered off.
-4. If the issue persists, contact [PINGEQUA support](https://www.pingequa.com/policies/contact-information).
+4. If the issue persists, contact [PINGEQUA support](https://www.pingequa.com/policies/contact-information?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424).
 
 ---
 
@@ -80,7 +80,7 @@ Note: nRF24 range is limited on this hardware due to low-power design constraint
 
 ## Still Having Issues?
 
-- [PINGEQUA Support Page](https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module)
+- [PINGEQUA Support Page](https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424)
 - [YouTube @PINGEQUA](https://www.youtube.com/@PINGEQUA)
 - Email: [pingltd@hotmail.com](mailto:pingltd@hotmail.com)
 

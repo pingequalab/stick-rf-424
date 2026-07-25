@@ -1,25 +1,25 @@
 # FAQ — Stick RF 424 for M5StickC Plus
 
-> **[Buy Stick RF 424 — $24.98 USD](https://www.pingequa.com/products/stick-rf-424-module)** | [Back to Wiki Home](Home)
+> **[Buy Stick RF 424 — $24.98 USD](https://www.pingequa.com/products/stick-rf-424-module?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424)** | [Back to Wiki Home](Home)
 
 ---
 
 ## Purchasing & Compatibility
 
 **Q: Where can I buy the Stick RF 424?**  
-A: At the [PINGEQUA Store](https://www.pingequa.com/products/stick-rf-424-module) for $24.98 USD. Ships globally within 48 hours. Delivery: 7–15 business days.
+A: At the [PINGEQUA Store](https://www.pingequa.com/products/stick-rf-424-module?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424) for $24.98 USD. Ships globally within 48 hours. Delivery: 7–15 business days.
 
 **Q: Which devices are compatible with Stick RF 424?**  
 A: M5StickC Plus 1.1 and M5StickC Plus 2 only.
 
 **Q: Does it work with M5Stack Cardputer?**  
-A: No. For Cardputer, use the [Hydra RF 424 Cap](https://www.pingequa.com/pages/wiki) or [Hydra RF 924 Pro](https://www.pingequa.com/pages/wiki).
+A: No. For Cardputer, use the [Hydra RF 424 Cap](https://www.pingequa.com/pages/wiki?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424) or [Hydra RF 924 Pro](https://www.pingequa.com/pages/wiki?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424).
 
 **Q: Does it work with M5Stack StickS3?**  
 A: No. For StickS3, use the [RF PACK S3](https://github.com/pingequalab/rf-pack-s3).
 
 **Q: Does it work with Flipper Zero?**  
-A: No. For Flipper Zero, PINGEQUA offers the [SWITCHBLADE RF 3-in-1](https://www.pingequa.com/pages/wiki) and other modules.
+A: No. For Flipper Zero, PINGEQUA offers the [SWITCHBLADE RF 3-in-1](https://www.pingequa.com/pages/wiki?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424) and other modules.
 
 **Q: What is the return policy?**  
 A: 14 days for unused items. Warranty covers manufacturing defects; excludes improper flashing or overvoltage damage.
@@ -81,7 +81,7 @@ A: No. The physical slide switch ensures only one chipset is electrically connec
 
 **Q: Where can I get help?**  
 A:
-- [PINGEQUA Support Page](https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module)
+- [PINGEQUA Support Page](https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424)
 - [YouTube @PINGEQUA](https://www.youtube.com/@PINGEQUA)
 - Email: [pingltd@hotmail.com](mailto:pingltd@hotmail.com)
 

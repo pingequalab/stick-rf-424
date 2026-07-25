@@ -1,6 +1,6 @@
 # Stick RF 424 for M5StickC Plus — Wiki
 
-> **[Buy Stick RF 424 — $24.98 USD](https://www.pingequa.com/products/stick-rf-424-module)** | Built by [PINGEQUA](https://www.pingequa.com) — *Precision Gear for Hackers*
+> **[Buy Stick RF 424 — $24.98 USD](https://www.pingequa.com/products/stick-rf-424-module?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424)** | Built by [PINGEQUA](https://www.pingequa.com?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424) — *Precision Gear for Hackers*
 
 ---
 
@@ -23,7 +23,7 @@ A **physical hardware slide switch** provides true electrical isolation between 
 | Bruce firmware version guide | [Firmware Guide](Firmware-Guide) |
 | Common errors & fixes | [Troubleshooting](Troubleshooting) |
 | Frequently asked questions | [FAQ](FAQ) |
-| Official support page | [PINGEQUA Support](https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module) |
+| Official support page | [PINGEQUA Support](https://www.pingequa.com/pages/support-m5stack-stickc-plus-2-in-1-module?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424) |
 
 ---
 
@@ -61,7 +61,7 @@ A **physical hardware slide switch** provides true electrical isolation between 
 | Hydra RF 424 Cap | M5Stack Cardputer |
 | SWITCHBLADE RF 3-in-1 | Flipper Zero |
 
-Full lineup at [pingequa.com/pages/wiki](https://www.pingequa.com/pages/wiki)
+Full lineup at [pingequa.com/pages/wiki](https://www.pingequa.com/pages/wiki?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424)
 
 ---
 

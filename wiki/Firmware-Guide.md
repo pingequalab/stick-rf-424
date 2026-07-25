@@ -1,6 +1,6 @@
 # Firmware Guide — Bruce Firmware for Stick RF 424
 
-> **[Buy Stick RF 424 — $24.98 USD](https://www.pingequa.com/products/stick-rf-424-module)** | [Back to Wiki Home](Home) | [Bruce Firmware Flasher](https://bruce.computer/flasher)
+> **[Buy Stick RF 424 — $24.98 USD](https://www.pingequa.com/products/stick-rf-424-module?utm_source=github&utm_medium=wiki&utm_campaign=stick-rf-424)** | [Back to Wiki Home](Home) | [Bruce Firmware Flasher](https://bruce.computer/flasher)
 
 ---
 
