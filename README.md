@@ -20,7 +20,7 @@
 
 ## Overview
 
-The **Stick RF 424** is a dual-band RF module for the **M5StickC Plus 1.1 and 2**. It packs a **CC1101** (Sub-GHz / 433MHz) and an **nRF24L01+** (2.4GHz) onto a single compact board, with a **physical hardware slide switch** that provides true electrical isolation between chipsets — zero latency, zero software overhead.
+The **Stick RF 424** is a dual-band RF module for the **M5StickC Plus 1.1 / Plus 2 and the M5Stack Cardputer**. It packs a **CC1101** (Sub-GHz / 433MHz) and an **nRF24L01+** (2.4GHz) onto a single compact board, with a **physical hardware slide switch** that provides true electrical isolation between chipsets — zero latency, zero software overhead.
 
 With 92+ community reviews and compatibility with **Bruce firmware**, the Stick RF 424 is one of PINGEQUA's most popular modules for Sub-GHz signal research, 2.4GHz interaction, and wireless education.
 
@@ -36,8 +36,8 @@ With 92+ community reviews and compatibility with **Bruce firmware**, the Stick 
 | **Physical Slide Switch** | Hardware isolation between chipsets — true electrical separation |
 | **Bruce Firmware Ready** | CC1101 and NRF24 both supported via "Legacy" module settings |
 | **Low-Noise PCB** | Enhanced capacitance design for stable RF transmission |
-| **Plug-and-Play** | GPIO header connection — no soldering required |
-| **M5StickC Plus Fit** | Designed for StickC Plus 1.1 and StickC Plus 2 |
+| **Plug-and-Play** | Inserts into the SD slot, GPIO pins connected with the included Grove cable — no soldering required |
+| **Multi-Host Fit** | Designed for StickC Plus 1.1, StickC Plus 2, and M5Stack Cardputer |
 
 ---
 
@@ -54,7 +54,7 @@ With 92+ community reviews and compatibility with **Bruce firmware**, the Stick 
 |-----------|------|
 | **Isolation** | Physical slide switch (electrical separation) |
 | **PCB Design** | Low-noise with enhanced capacitance |
-| **Host Device** | M5StickC Plus 1.1 / M5StickC Plus 2 |
+| **Host Device** | M5StickC Plus 1.1 / M5StickC Plus 2 / M5Stack Cardputer |
 | **Required Firmware** | Bruce latest beta (avoid v1.13 stable) |
 | **Price** | $24.98 USD |
 | **Community Reviews** | 92+ reviews |
@@ -70,7 +70,8 @@ With 92+ community reviews and compatibility with **Bruce firmware**, the Stick 
 | Bruce Firmware (latest beta) | ✅ Required |
 | Bruce Firmware v1.13 stable | ❌ Known `CC1101 NOT FOUND` bug — do not use |
 | M5Stack StickS3 | ❌ Use [RF PACK S3](https://github.com/pingequalab/rf-pack-s3) instead |
-| M5Stack Cardputer | ❌ Use [Hydra RF series](https://www.pingequa.com/pages/wiki?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) instead |
+| M5Stack Cardputer | ✅ Fully supported |
+| M5Stack Cardputer **ADV** | ❌ Use [Hydra RF series](https://www.pingequa.com/pages/wiki?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) instead |
 
 ---
 
@@ -85,7 +86,9 @@ Select the **latest beta** build for M5StickC Plus.
 
 ### Step 2 — Attach the Module
 
-Connect the Stick RF 424 to your M5StickC Plus via the GPIO header. No soldering required.
+Insert the Stick RF 424 board into the host's SD slot, then connect the GPIO pins with the included Grove cable. No soldering required.
+
+A loose Grove cable is a common cause of `CC1101 NOT FOUND` — seat it fully at both ends.
 
 ### Step 3 — Select Module with Slide Switch
 
@@ -144,7 +147,7 @@ RF → CONFIG → RF MODULE → NRF24 (Legacy)
 
 | Product | For Device |
 |---------|-----------|
-| [Stick RF 424](https://www.pingequa.com/products/stick-rf-424-module?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) | M5StickC Plus 1.1 / 2 |
+| [Stick RF 424](https://www.pingequa.com/products/stick-rf-424-module?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) | M5StickC Plus 1.1 / 2 · M5Stack Cardputer |
 | [RF PACK S3](https://github.com/pingequalab/rf-pack-s3) | M5Stack StickS3 |
 | [Hydra RF 424 Cap](https://www.pingequa.com/pages/wiki?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) | M5Stack Cardputer |
 | [SWITCHBLADE RF 3-in-1](https://www.pingequa.com/pages/wiki?utm_source=github&utm_medium=readme&utm_campaign=stick-rf-424) | Flipper Zero |
